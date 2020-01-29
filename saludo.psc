@@ -13,3 +13,19 @@ Algoritmo saludo
 	ncompleto _____ 
 	//presente en la pantalla un saludo al usuario con nombre y apellido
 FinAlgoritmo
+
+
+Algoritmo saludo
+	
+	Definir nombre, apellido, ncompleto Como caracter
+	
+	Escribir  "Bienvenido, por favor escriba su nombre";
+	Leer nombre
+	Escribir  "ahora escriba su apellido";
+	Leer apellido
+	ncompleto <- nombre + apellido
+	Escribir " ¡Buen día!", ncompleto
+	
+FinAlgoritmo
+
+
