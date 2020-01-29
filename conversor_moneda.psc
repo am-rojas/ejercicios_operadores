@@ -1,16 +1,25 @@
 Algoritmo conversor_moneda
-	//declare dos variables que almacenen el monto en d髄ares
-	//a convertir y el resultado de la operaci髇
+	//declare dos variables que almacenen el monto en d贸lares
+	//a convertir y el resultado de la operaci贸n
 	
 	//la tasa de cambio de hoy es 1 US$ = 3398 COP
 	//asigne la tasa de cambio a una constante
 	
-	//solicite el monto en d髄ares a convertir y lealo en la
+	//solicite el monto en d贸lares a convertir y lealo en la
 	//correspondiente variable
 	
-	//calcule la conversi髇 y guardelo en la variable declarada
+	//calcule la conversi贸n y guardelo en la variable declarada
 	
 	//regrese al usuario el resultado, sea creativo en su respuesta
 	
+	
+FinAlgoritmo
+
+
+Algoritmo conversor_moneda
+	Escribir "ingrese cantidad de dolares"
+	Leer cdolar
+	pesos<- cdolar* 3398
+	Escribir "La cantidad en pesos colombianos es igual a:", pesos
 	
 FinAlgoritmo
