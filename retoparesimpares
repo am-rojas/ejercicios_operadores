@@ -1,0 +1,20 @@
+Algoritmo suma_k_numeros_impares
+	
+	Definir k,a,b,c,n como Entero;
+		
+	Escribir "Por favor, ingrese k:";
+	Leer k;
+  
+	Para i<-1 Hasta k Con Paso 1 Hacer
+		b <- k MOD 2
+		Si b<>0 Entonces 	
+	
+		FinSi
+		suma=(suma+2*i)-1
+		
+		FinPara
+		
+	Escribir "La suma de los k primero números impares es:", suma
+FinAlgoritmo
+
+	
